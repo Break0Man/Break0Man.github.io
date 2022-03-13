@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.start{
+    display: flex;
+    text-align: center;
+    padding-top: 350px;
+    justify-content: center;
+}
+.container{
+    background: url(keybourd-back.jpg) no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
