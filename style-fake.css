@@ -14,7 +14,7 @@ body{
 .box{
     border: solid 1px rgb(223, 223, 223);
     border-radius: 10px;
-    padding: 6rem 30px;
+    padding: 8rem 30px;
     text-align: center;
     position: relative;
     z-index: 999;
