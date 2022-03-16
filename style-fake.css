@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: solid 1px rgb(223, 223, 223);
+    border-radius: 10px;
+    padding: 6rem 30px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+    height: 50%;
+}
+.signin{
+    transition: 0.5s;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+.logo img{
+    width: 17%;
+    position: relative;
+    bottom: 80px;
+}
+.signin-text{
+    position: relative;
+    bottom: 80px;
+    font-size: 20px;
+    font-weight:400 ;
+}
+.use-your-google-account{
+    position: relative;
+    bottom: 80px;
+    font-size: 16px;
+    font-weight:400 ;
+
+}
+.email{
+    padding: 15px 0;
+    padding-right: 12rem;
+    border: solid 1px rgb(223, 223, 223);
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(#border);
+    
+}
+
+
+.email input{
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+
+}
+input:focus{
+    outline: none !important;
+}
+.forget-email{
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-items: left;
+    bottom: 35px;
+    margin-left: 7px;
+}
+.middle{
+    text-align: left;
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+    margin-left: 7px;
+    margin-top: 15px;
+}
+.middle span{
+    color: rgb(0, 110, 255);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 60px;
+}
+
+.create-account{
+    font-size: 14px;
+}
+.next{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.password{
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+}
+
+button{
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    transform: translateY(-50px);
+    font-size: 17px;
+}
+.forget-pass{
+    position: absolute;
+    bottom: 20px;
+}
